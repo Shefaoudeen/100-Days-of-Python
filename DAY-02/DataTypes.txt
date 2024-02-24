@@ -3,3 +3,17 @@ Primitive Data Types:
   2.Integers
   3.Float
   4.Boolean
+
+type() => return data type   
+
+Mathematical Operators:
+  1.+
+  2.-
+  3.*
+  4./
+  5.**
+
+follows PEDMASLR 
+
+round(x,y) => round off the number x to y decimal points
+
