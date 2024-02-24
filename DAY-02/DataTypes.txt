@@ -1,0 +1,5 @@
+Primitive Data Types:
+  1.String
+  2.Integers
+  3.Float
+  4.Boolean
