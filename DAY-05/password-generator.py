@@ -31,6 +31,7 @@ while total > 0:
         password += numbers[random.randint(0, len(numbers)-1)]
         nr_numbers -= 1
         total -= 1
-    print(password)
 
 print(f"Here is your password: {password}")
+
+# akka used random.shuffle(string)
