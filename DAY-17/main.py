@@ -10,7 +10,7 @@ for question in question_data:
 
 quiz_brain = QuizBrain(list_of_question)
 
-while quiz_brain.still_has_question() :
+while quiz_brain.still_has_question():
     quiz_brain.next_question()
 
 print(f"You've completed the quiz")
