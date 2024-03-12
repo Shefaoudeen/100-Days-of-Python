@@ -57,4 +57,10 @@ class Snake:
         elif direction == 270:
             self.head.right(90)
 
+    def reset(self):
+        for seg in self.segments:
+            seg.goto(1000,1000)
+        self.segments.clear()
+        self.snake_create()
+        self.head = self.segments[0]
 
